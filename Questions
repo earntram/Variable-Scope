@@ -1,0 +1,14 @@
+What is scope? Your explanation should include the idea of global vs. block scope.
+  Scope is what is allowed to be accessed
+  Gobal is everywhere in the code
+  Block only functions inside the specified code
+  
+Why are global variables avoided?
+  Code becomes bug prone
+  
+Explain JavaScript's strict mode
+  any time a variable is declared without the let or const keyword, an error will be triggered
+  
+What are side effects, and what is a pure function?
+  A side effect is when a function reaches outside its local scope up into a parent scope and alters a value that lives there
+  A function is said to be pure when it is both determinate and has no side effects.
